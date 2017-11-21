@@ -1,0 +1,29 @@
+.splash-container {
+  //width: 568px;
+  margin: 0 auto;
+  color: #162d66;
+  font-size: 20px;
+}
+
+.splash-container p {
+  margin: 20px 40px;
+  text-align: center;
+}
+
+.left-container {
+    text-align: right;
+}
+.right-container {
+    text-align: left;
+}
+
+@media only screen and (max-device-width: 568px) {
+  div.logo-sm-up {
+    display:none;
+  }
+}
+@media only screen and (min-device-width: 567px) {
+  div.logo-sm-down {
+    display:none;
+  }
+}
